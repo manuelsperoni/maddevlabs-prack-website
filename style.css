@@ -2,12 +2,12 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Nunito", sans-serif;
+  font-family: 'Nunito', sans-serif;
 }
 
 p,
 h1 {
-  font-family: "Nunito", sans-serif;
+  font-family: 'Nunito', sans-serif;
 }
 :root {
   --primary-color: #00de9f;
@@ -113,7 +113,7 @@ body {
   position: absolute;
   top: 0px;
   left: 0px;
-  background-image: url("assets/texture.png");
+  /* background-image: url("assets/texture.png"); */
   width: 100vw;
   height: 851px;
   z-index: 1;
@@ -145,12 +145,12 @@ body {
 }
 
 .section {
-  width: 800px;
+  width: 1000px;
   padding-bottom: 50px;
 }
 
 .preview {
-  width: 250px;
+  width: 600px;
   margin-left: 60px;
 }
 
@@ -244,7 +244,7 @@ body {
     position: absolute;
     top: 0px;
     left: 0px;
-    background-image: url("assets/texture.png");
+    background-image: url('assets/texture.png');
     width: 100vw;
     height: 1700px;
     z-index: 1;
